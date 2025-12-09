@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeEstate Realty</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>PrimeEstate Realty</h1>
+    <p>Your Trusted Partner in Finding the Perfect Home</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#search">Search</a></li>
+        <li><a href="#listings">Properties</a></li>
+        <li><a href="#inquiry">Inquiry</a></li>
+    </ul>
+</nav>
+
+<section id="search">
+    <h2>Search Properties</h2>
+
+    <form class="search-form">
+        <label>Location:</label>
+        <input type="text" placeholder="City / Area" required>
+
+        <label>Property Type:</label>
+        <select required>
+            <option value="">Select</option>
+            <option>Apartment</option>
+            <option>Villa</option>
+            <option>Commercial</option>
+            <option>Plot</option>
+        </select>
+
+        <label>Budget:</label>
+        <select required>
+            <option value="">Select</option>
+            <option>₹10–30 Lakhs</option>
+            <option>₹30–60 Lakhs</option>
+            <option>₹60 Lakhs – 1 Crore</option>
+            <option>1 Crore+</option>
+        </select>
+
+        <button class="btn">Search</button>
+    </form>
+</section>
+
+<section id="listings">
+    <h2>Featured Properties</h2>
+
+    <div class="property-card">
+        <img src="https://i.pinimg.com/736x/38/0b/7c/380b7ce3d468832732a96042413f0482.jpg">
+        <h3>2 BHK Luxury Apartment</h3>
+        <p>Location: Mumbai</p>
+        <p>Area: 1100 sq.ft</p>
+        <strong>₹85 Lakhs</strong>
+        <button class="btn">View Details</button>
+    </div>
+
+    <div class="property-card">
+        <img src="https://i.pinimg.com/1200x/e4/f2/2f/e4f22f5a4cb161874048bee0fe6a5825.jpg">
+        <h3>3 BHK Premium Villa</h3>
+        <p>Location: Bengaluru</p>
+        <p>Area: 2400 sq.ft</p>
+        <strong>₹1.8 Crores</strong>
+        <button class="btn">View Details</button>
+    </div>
+
+    <div class="property-card">
+        <img src="https://i.pinimg.com/736x/f1/da/78/f1da78ea5ccb375563b14925cdeaaf0f.jpg">
+        <h3>Commercial Office Space</h3>
+        <p>Location: Delhi</p>
+        <p>Area: 900 sq.ft</p>
+        <strong>₹1.1 Crore</strong>
+        <button class="btn">View Details</button>
+    </div>
+</section>
+
+<section id="inquiry">
+    <h2>Property Inquiry Form</h2>
+
+    <form class="inquiry-form">
+        <label>Name:</label>
+        <input type="text" required>
+
+        <label>Email:</label>
+        <input type="email" required>
+
+        <label>Phone:</label>
+        <input type="text" required>
+
+        <label>Property of Interest:</label>
+        <input type="text" placeholder="e.g., 2 BHK Apartment" required>
+
+        <label>Your Message:</label>
+        <textarea rows="4" required></textarea>
+
+        <button class="btn">Submit Inquiry</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2025 PrimeEstate Realty. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
